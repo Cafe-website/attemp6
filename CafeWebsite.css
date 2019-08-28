@@ -1,0 +1,127 @@
+/*this is the styling document (css>*/
+
+
+
+/*Header of the website, insert photo a url in background-image to replace the header image. Everything in the header of the website follows this style of css*/
+.header {
+    background-image:url("https://images.unsplash.com/photo-1497515114629-f71d768fd07c?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1962&q=80");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 100%;
+    padding: 10%;
+    text-align: right;
+    color: white;
+    font-family: 'Abril Fatface';
+    }
+/*this is the styling for the header text (Store name and subtitle).>*/
+    h1{
+    font-size: 350%;
+    opacity: 0.95;
+    text-decoration: overline;
+    text-decoration-color: white;
+}
+
+
+/*This is the styling for Open Time on the home page (PC), text for Open Time information can be edited under this comment*/
+    .opentime{
+    text-align: center;
+    line-height: 200%;
+    font-family: 'Bitter';
+        padding: 200px;
+    }
+/*this is the styling for the title "Open Time", font size and text decoration style can be edited>*/
+    h2{
+    text-decoration: underline;
+    font-size: 200%;
+    font-family: 'Bitter';
+    }
+
+/*this is the styling for the main body text>*/
+    body {
+    margin: 0;
+    font-size: 28px;
+    font-family: 'Bitter';
+    color: white;
+    }
+
+/*The textboxes are the styling for the background colour in the body of each page, colour of the background can be changed with 'background-color', the size of the background is set to 'auto' as default>*/
+
+    #textbox1 {
+    background-color:#333;
+    background-size: auto;
+    padding: 20px;
+}
+
+/*These are the styling for the sticky navbar on PC, colour can be edited>*/
+   #navbar {
+    overflow: hidden;
+    background-color: #E38560;
+}
+    /*This is the styling for each of the click on(button) navigations on the sticky navbar. The button navigations are set to the left as default ('float: left;', each of the navigations are displayed like a block ('display: block;'). The colour for text ('color:'), font size ('font-size:') and the text decoration ('text-decoration:') can be customised>*/
+    #navbar a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 300%px;
+}
+    /*When the user is on a page(navbar set to active), the colour of the tab wil change to the selected 'background-colour:', and the text will change to 'color:'. These colours can be customised>*/
+    #navbar a.active {
+    background-color: #333;
+    color: white;
+    text-decoration: underline;
+    }
+
+
+    /*When the user hover overs the navigation, the colour of the tab will change to the selected 'backgroud-color:', and the text colour will change to 'color:'. These colours can be customised >*/
+    #navbar a:hover {
+    background-color: #ddd;
+    color: white;
+    }
+
+/*These are to add extra space between each content (information). The spacing can be customised ('padding')>*/
+    .content1 {
+    padding: 10px;
+    }
+
+    .content2{
+    background-image: url('https://images.unsplash.com/photo-1500912708295-4cf8b060f381?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80');
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 20px;
+    background-color: #141414;
+    }
+
+/*this is the styling for the footer, where the user can see small information about business. Colours for the background ('background-color:'), text colour ('color:') can be customised as well as the spacing between the content above the footer ('padding:')*/
+.footer {
+ background-color: #333;
+    padding: 20px;
+    color: white;
+    text-align: center;
+}
+
+/*The styling below is to make the sticky navbar stick to the top of the page when the user scrolls past the sticky navbar. RECOMMENDED NOT TO CUSTOMISE*/
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+.sticky + .content {
+  padding-top: 60px;
+}
+
+
+/*This is the responsive part of the website, where the font and images will change size depending on the user's screen size. Editable, but not recommended to.*/
+@media screen and (max-width: 1101px) {
+  h1 {
+    font-size: 300%;
+  }
+}
+@media screen and (max-width: 951px) {
+  h1 {
+    font-size: 250%;
+  }
+

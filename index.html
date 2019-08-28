@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+
+ <!--this is to make the website to adjust in order to be more suitable for different screen sizes-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!--Coding below loads the styling sheet (CSS) that the page uses ('cafewebsite.css').-->
+    <link rel="stylesheet" type="text/css" href="CafeWebsite.css">
+
+
+   <head>
+    <!--Fonts the website uses are imported from Google Fonts-->
+    <link href="https://fonts.googleapis.com/css?family=Abril+Fatface|Bitter&display=swap" rel="stylesheet">
+
+       <!--The title defines a title in the browser tab, also provids a title for the page when it is added to the favourites list. -->
+        <title>Cafe Home</title>
+       <!--This is what will written on the header along with header image background. <h1> is the name of the shop, along with <p> to add a subtitle).-->
+       <div class="header">     
+        <h1>Latte Cafe</h1>
+        <p>Welcome to our home page!</p> 
+       </div>
+    </head>
+
+    
+<!--These are the different navigations for the sticky navbar. Cafe Home page is set to active.-->
+<div id="navbar">
+  <a class="active" href="index.html">Home</a>
+  <a  href="testingmenu.html">Menu</a>
+  <a href="CafeContacts.html">Contact</a>
+    
+</div>
+    
+
+    <!--The body is the starting of the contents under the header and sticky navbar. Everything under div class= 'Content(number)' will be together.-->
+    <body>
+     <div id="textbox1">
+    <div class="content1">
+        <img style="padding: 0 50px; float: left; margin-top: 40px" src="https://images.unsplash.com/photo-1497636577773-f1231844b336?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=634&q=80" alt="Brewing coffee">
+    
+        <div class="opentime">
+            <h2>Our Open Time</h2>
+            <br>Monday 8.30AM ~ 5.30PM
+            <br>Tuesday CLOSED
+            <br>Wednesday 8.30AM ~ 5.30PM
+            <br>Thursday 8.30AM ~ 5.30PM
+            <br>Friday 8.30AM ~ 5.30PM
+            <br>Saturday 8.30AM ~ 5.30PM
+            <br>Sunday 8.30AM ~ 5.30PM
+        </div>
+      
+  <p>Some text to enable scrolling.. Lorem ipsum dolor sit amet, illum definitiones no quo, maluisset concludaturque et eum, altera fabulas ut quo. Atqui causae gloriatur ius te, id agam omnis evertitur eum. Affert laboramus repudiandae nec et. Inciderint efficiantur his ad. Eum no molestiae voluptatibus.</p>
+    <p>Some text to enable scrolling.. Lorem ipsum dolor sit amet, illum definitiones no quo, maluisset concludaturque et eum, altera fabulas ut quo. Atqui causae gloriatur ius te, id agam omnis evertitur eum. Affert laboramus repudiandae nec et. Inciderint efficiantur his ad. Eum no molestiae voluptatibus.</p>
+     <p>Some text to enable scrolling.. Lorem ipsum dolor sit amet, illum definitiones no quo, maluisset concludaturque et eum, </p> 
+
+    </div>
+    
+<div id="textbox2">
+    <div class="content2">
+    <p>awjdaefsefg</p>
+         <p>Some text to enable scrolling.. Lorem ipsum dolor sit amet, illum definitiones no quo, maluisset concludaturque et eum, altera fabulas ut quo. Atqui causae gloriatur ius te, id agam omnis evertitur eum. Affert laboramus repudiandae nec et. Inciderint efficiantur his ad. Eum no molestiae voluptatibus.</p> 
+         <p>Some text to enable scrolling.. Lorem ipsum dolor sit amet, illum definitiones no quo, maluisset concludaturque et eum, altera fabulas ut quo. Atqui causae gloriatur ius te, id agam omnis evertitur eum. Affert laboramus repudiandae nec et. Inciderint efficiantur his ad. Eum no molestiae voluptatibus.</p> 
+         <p>Some text to enable scrolling.. Lorem ipsum dolor sit amet, illum definitiones no quo, maluisset concludaturque et eum, altera fabulas ut quo. Atqui causae gloriatur ius te, id agam omnis evertitur eum. Affert laboramus repudiandae nec et. Inciderint efficiantur his ad. Eum no molestiae voluptatibus.</p> 
+         <p>Some text to enable scrolling.. Lorem ipsum dolor sit amet, illum definitiones no quo, maluisset concludaturque et eum, altera fabulas ut quo. Atqui causae gloriatur ius te, id agam omnis evertitur eum. Affert laboramus repudiandae nec et. Inciderint efficiantur his ad. Eum no molestiae voluptatibus.</p> 
+         <p>Some text to enable scrolling.. Lorem ipsum dolor sit amet, illum definitiones no quo, maluisset concludaturque et eum, altera fabulas ut quo. Atqui causae gloriatur ius te, id agam omnis evertitur eum. Affert laboramus repudiandae nec et. Inciderint efficiantur his ad. Eum no molestiae voluptatibus.</p> 
+         <p>Some text to enable scrolling.. Lorem ipsum dolor sit amet, illum definitiones no quo, maluisset concludaturque et eum, altera fabulas ut quo. Atqui causae gloriatur ius te, id agam omnis evertitur eum. Affert laboramus repudiandae nec et. Inciderint efficiantur his ad. Eum no molestiae voluptatibus.</p> 
+         <p>Some text to enable scrolling.. Lorem ipsum dolor sit amet, illum definitiones no quo, maluisset concludaturque et eum, altera fabulas ut quo. Atqui causae gloriatur ius te, id agam omnis evertitur eum. Affert laboramus repudiandae nec et. Inciderint efficiantur his ad. Eum no molestiae voluptatibus.</p> 
+         <p>Some text to enable scrolling.. Lorem ipsum dolor sit amet, illum definitiones no quo, maluisset concludaturque et eum, altera fabulas ut quo. Atqui causae gloriatur ius te, id agam omnis evertitur eum. Affert laboramus repudiandae nec et. Inciderint efficiantur his ad. Eum no molestiae voluptatibus.</p> 
+    </div>
+    </div>
+    </div>
+    
+    </body>
+    <div class="footer">
+    <p>dawdbawhfbshefb</p>
+</div>
+
+<script>
+window.onscroll = function() {myFunction()};
+
+var navbar = document.getElementById("navbar");
+var sticky = navbar.offsetTop;
+
+function myFunction() {
+  if (window.pageYOffset >= sticky) {
+    navbar.classList.add("sticky")
+  } else {
+    navbar.classList.remove("sticky");
+  }
+}
+    
+</script>
+
+</html>

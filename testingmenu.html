@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+
+ <!--this is to make the website to adjust in order to be more suitable for different screen sizes-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!--Coding below loads the styling sheet (CSS) that the page uses ('cafewebsite.css').-->
+    <link rel="stylesheet" type="text/css" href="CafeWebsite.css">
+
+  
+   <head>
+       <!--Fonts the website uses are imported from Google Fonts-->
+    <link href="https://fonts.googleapis.com/css?family=Abril+Fatface|Bitter&display=swap" rel="stylesheet">
+       <!--The title defines a title in the browser tab, also provids a title for the page when it is added to the favourites list. -->
+        <title>Cafe Menu</title>
+       <!--This is what will written on the header along with header image background. <h1> is the name of the shop, along with <p> to add a subtitle).-->
+       <div class="header">     
+        <h1>Latte Cafe</h1>
+        <p>Browse through our menu :)</p> 
+       </div>
+    </head>
+
+    
+<!--These are the different navigations for the sticky navbar. Cafe Menu page is set to active.-->
+<div id="navbar">
+  <a href="index.html">Home</a>
+  <a class="active" href="testingmenu.html" >Menu</a>
+  <a href="CafeContacts.html">Contact</a>
+</div>
+
+
+<div id="textbox1">
+    
+<div class="content1">
+    
+  <h3>Our Menu</h3>
+  <p>Latte Cafe serves many berverages. Whether you want coffee or tea- cold or hot, we will do our best to fufil our customer's needs. </p>
+    
+
+  <p>Please feel free to contact any of our staff members to inquire us about dietary requirements!</p>
+    
+    
+  <p>Some text to enable scrolling.. Lorem ipsum dolor sit amet, illum definitiones no quo, maluisset concludaturque et eum, altera fabulas ut quo. Atqui causae gloriatur ius te, id agam omnis evertitur eum. Affert laboramus repudiandae nec et. Inciderint efficiantur his ad. Eum no molestiae voluptatibus.</p>
+    <p>Some text to enable scrolling.. Lorem ipsum dolor sit amet, illum definitiones no quo, maluisset concludaturque et eum, altera fabulas ut quo. Atqui causae gloriatur ius te, id agam omnis evertitur eum. Affert laboramus repudiandae nec et. Inciderint efficiantur his ad. Eum no molestiae voluptatibus.</p> 
+     <p>Some text to enable scrolling.. Lorem ipsum dolor sit amet, illum definitiones no quo, maluisset concludaturque et eum, altera fabulas ut quo. Atqui causae gloriatur ius te, id agam omnis evertitur eum. Affert laboramus repudiandae nec et. Inciderint efficiantur his ad. Eum no molestiae voluptatibus.</p> 
+     <p>Some text to enable scrolling.. Lorem ipsum dolor sit amet, illum definitiones no quo, maluisset concludaturque et eum, altera fabulas ut quo. Atqui causae gloriatur ius te, id agam omnis evertitur eum. Affert laboramus repudiandae nec et. Inciderint efficiantur his ad. Eum no molestiae voluptatibus.</p> 
+    </div></div>
+
+<div class="footer">
+    <p>dawdbawhfbshefb</p>
+</div>  
+
+
+<script>
+window.onscroll = function() {myFunction()};
+
+var navbar = document.getElementById("navbar");
+var sticky = navbar.offsetTop;
+
+function myFunction() {
+  if (window.pageYOffset >= sticky) {
+    navbar.classList.add("sticky")
+  } else {
+    navbar.classList.remove("sticky");
+  }
+}
+    
+</script>
+</html>
